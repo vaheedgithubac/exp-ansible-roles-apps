@@ -1,1 +1,4 @@
+---
+# variables for DEV environment
+BACKEND_HOST: localhost
 
