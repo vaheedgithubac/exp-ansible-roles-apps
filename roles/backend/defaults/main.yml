@@ -6,8 +6,8 @@ APP_USER: expense
 APP_LOCATION: /app
 COMPONENT: backend
 
-# Mysql Variables
-MYSQL_USER: expense
-MYSQL_PASSWORD: ExpenseApp@1
+# Mysql Variables - tf related
+MYSQL_USER: admin                   #expense
+MYSQL_PASSWORD: admin123               #ExpenseApp@1
 MYSQL_HOST: localhost         # mysql.daws82s.online
 MYSQL_DATABASE: transactions
