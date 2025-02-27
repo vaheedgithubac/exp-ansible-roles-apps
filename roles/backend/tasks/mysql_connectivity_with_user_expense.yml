@@ -37,6 +37,10 @@
     msg: "Successfully connected to MySQL with user '{{ MYSQL_USER }}' on '{{ MYSQL_DATABASE }}' database."
   when: mysql_query_result.failed is false
 
+- name: Print error if MySQL query fails
+  debug:
+    msg: "MYSQL HOST: '{{ MYSQL_HOST }}'"
+  
 - name: Import mysql data
   community.mysql.mysql_db:
     name: all
