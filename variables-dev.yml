@@ -2,5 +2,5 @@
 # vars_files has high precedence than roles:default/main.yml and roles:vars/main.yml
 # variables for DEV environment
 # MYSQL_HOST: localhost
-BACKEND_HOST: internal-expense-dev-alb-internal-1480909686.ap-south-1.elb.amazonaws.com
+BACKEND_HOST: internal-expense-dev-alb-internal-1827623440.ap-south-1.elb.amazonaws.com
 MYSQL_HOST: expense-db-instance.ctkcg0o0el6r.ap-south-1.rds.amazonaws.com
